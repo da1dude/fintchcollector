@@ -5,4 +5,6 @@ from . import views
 urlpatterns = [
     path('', views.home, name='home'),
     path('about/', views.about, name='about'),
+    #this is our route for the index page of fintches
+    path('finches/', views.finches_index, name='index'),
 ]
